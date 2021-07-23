@@ -46,7 +46,6 @@ def inptcheck(turn):
     if sucess == "false":
         print("that place is already filled")
         inptcheck(turn)
-    return
 
 
 
@@ -81,7 +80,6 @@ def check(turn):
 
         print( " Player " + turn + " has won the game " )
         quit[0] = 1
-    return
 
 
 
